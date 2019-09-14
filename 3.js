@@ -26,12 +26,10 @@ function drawPattern(num){
                 }else{
                     row = row+' = '
                 }         
-            }
-            
+            }      
         }
         console.log(row+'\n')
     }
 }
-
 drawPattern(7)
 
