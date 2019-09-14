@@ -1,0 +1,35 @@
+.content{
+    width: 100%;
+
+}
+
+.row{
+    
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.colh{
+    float: left;
+    width: 50%;
+}
+
+.colv{
+    width: 100%;
+}
+.tambah{
+    width: 50%;
+    line-height: 120px;
+    margin-left: 100px;
+}
+.pd10{
+    padding: 10px;
+}
+.rounded{
+    border-radius: 5px;
+}
+
+.linear{
+    background: linear-gradient(#aeaee2, #f1caca)
+}

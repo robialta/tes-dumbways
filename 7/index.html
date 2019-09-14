@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/mystyle.css">
+    <title>Soal nomor 7</title>
+    <style>
+ 
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="container">
+            <div class="hero-unit">
+                <h1>{{heading_text}}</h1>
+            
+            </div>
+
+            <div class="content">
+                <div class="row rounded linear" v-for="calon in calons" :key="calon.id">
+                    <div class="colh">
+                        <div class="row">
+                            <div class="colv pd10">
+                                <span class="label label-info">Nama calon</span>
+                                <h2>{{calon.nama}}</h2>
+                            </div>
+                            <div class="colv pd10">
+                                <span class="label label-info">Perolehan suara</span>
+                                <h1>{{calon.suara}}</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="colh ">
+                        <div class="colv pd10">
+                            <button class="btn tambah btn-primary" @click="add(calon.id)">Tambah voting</button>
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+    <script src="./assets/app.js"></script>
+</html>
