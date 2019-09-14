@@ -2,4 +2,4 @@
 
 untuk jawaban nomor 1 harus di jalankan di lokal server karna menggunakan php
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/Robialta/tes-dumbways/blob/master/7/assets/img/Capture.PNG)
