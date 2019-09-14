@@ -1,6 +1,6 @@
 import re
 
-def hitung(str, kata):
+def hitung(string, kata):
     if len(kata) > len(str):
         print('String harus lebih panjang')
     else:
